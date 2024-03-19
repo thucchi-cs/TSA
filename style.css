@@ -101,8 +101,55 @@ nav{
     background-position: top;
 }
 
-.overview{
-    padding: 450 50;
+/* .sign{
+    width:fit-content;
+    height: fit-content;
+    margin: 100 200;
+    box-shadow: 0 0 100px greenyellow;
+} */
+.sign{
+    margin: 100 200;
+}
+.sign a{
+    color: #0ed145;
+}
+#title{
+    font-family:'Dosis';
+    font-size: 150;
+    text-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;
+    letter-spacing: 10px;
+}
+.line1{
+    /* width: fit-content;
+    height: fit-content;
+    box-shadow: 0 0 100px greenyellow;  */
+    border-left: 25px solid #fff;
+    height: 1618px;
+    position:absolute;
+    margin: -145 1084;
+    box-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;;
+}
+
+.line2{
+    /* width: fit-content;
+    height: fit-content;
+    box-shadow: 0 0 100px greenyellow;  */
+    border-left: 25px solid #fff;
+    
+    height: 1618px;
+    position:absolute;
+    margin: 0 1084;
+    box-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;;
+}
+.cover{
+    font-family:'Dosis';
+    font-size: 150;
+    position:absolute;
+    margin: -290 1060;
+    color: rgb(255, 255, 255);
+}
+.info{
+    padding: 100 30;
 }
 .content{
     padding: 50 50;
