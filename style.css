@@ -108,48 +108,52 @@ nav{
     box-shadow: 0 0 100px greenyellow;
 } */
 .sign{
-    margin: 100 200;
+    margin: 8%;
+    text-align: center;
 }
 .sign a{
     color: #0ed145;
 }
-#title{
+.title{
     font-family:'Dosis';
     font-size: 150;
     text-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;
     letter-spacing: 10px;
+    text-align: center;
+    color:#fff;
 }
 .line1{
     /* width: fit-content;
     height: fit-content;
     box-shadow: 0 0 100px greenyellow;  */
-    border-left: 25px solid #fff;
-    height: 1618px;
+    border-left: 20px solid #fff;
+    height: 1370px;
     position:absolute;
-    margin: -145 1084;
-    box-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;;
-}
-
-.line2{
-    /* width: fit-content;
-    height: fit-content;
-    box-shadow: 0 0 100px greenyellow;  */
-    border-left: 25px solid #fff;
-    
-    height: 1618px;
-    position:absolute;
-    margin: 0 1084;
+    margin: 140 -54;
     box-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;;
 }
 .cover{
     font-family:'Dosis';
     font-size: 150;
     position:absolute;
-    margin: -290 1060;
+    margin: 0 -80;
     color: rgb(255, 255, 255);
+    text-shadow: none;
+}
+.circle{
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+    position:absolute;
+    margin: 1500 -90;
+    box-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;;
+    border: solid 20px;
+    display: inline-block;
 }
 .info{
     padding: 100 30;
+    text-align:start;
 }
 .content{
     padding: 50 50;
