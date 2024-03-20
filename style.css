@@ -133,7 +133,7 @@ nav{
     margin: 140 -54;
     box-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;;
 }
-@media (max-width:800){
+@media (max-width:1000){
     .line{
         display:none;
     }
