@@ -30,15 +30,14 @@ nav{
 .heading{
     font-family: 'Raleway', sans-serif;
     width: auto;
-    cursor: pointer;
     color: rgb(255, 255, 255);
     font-size: 40;
     padding: 0 50px;
 }
 #menu li{
     list-style: none;
-    display:inline-block;
-    margin: 0 40px;
+    display:inline;
+    margin: 0 3vw;
     position: relative;
 }
 #menu li a{
@@ -64,11 +63,6 @@ nav{
 }
 #menu li a:hover::after{
     width: 100%
-}
-
-.hamburger{
-    display: none;
-    cursor: pointer;
 }
 
 .bar{
@@ -124,18 +118,15 @@ nav{
     font-weight: bold;
 }
 .line1{
-    /* width: fit-content;
-    height: fit-content;
-    box-shadow: 0 0 100px greenyellow;  */
     border-left: 20px solid #fff;
-    height: 1370px;
+    height: 245vh;
     position:absolute;
     margin: 140 -54;
     box-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;;
 }
-@media (max-width:1000){
+@media (max-width:5000){
     .line{
-        display:none;
+        height:20vh;
     }
 }
 .cover{
@@ -153,14 +144,15 @@ nav{
     height: 50px;
     border-radius: 60%;
     position:absolute;
-    margin: 1500 -90;
+    margin: 270vh -90;
     box-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;;
     border: solid 20px;
     display: inline-block;
 }
 .info{
-    padding: 100 30;
+    padding: 10vh 30;
     text-align:start;
+    width: 65vw;
 }
 .content{
     padding: 50 50;
@@ -194,4 +186,7 @@ p{
     font-size: 20px;
     color: white;
     line-height: 1.8;
+}
+#morelinks:hover{
+    text-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;
 }
