@@ -202,6 +202,11 @@ nav{
     #Solutions{
         height: 2000px;
     }
+    img#i4{
+        width: 200px;
+    }
+    im#i3{
+        width: 200px;
 }    
 
 .info{
@@ -266,7 +271,7 @@ section a{
 }
 #i4{
     float: right;
-    width: 600px;
+    width: 300px;
     margin-bottom: 15px;
     box-shadow: 10px 10px 10px #41e670;
 }
