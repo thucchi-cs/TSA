@@ -30,14 +30,15 @@ nav{
 .heading{
     font-family: 'Raleway', sans-serif;
     width: auto;
+    cursor: pointer;
     color: rgb(255, 255, 255);
     font-size: 40;
     padding: 0 50px;
 }
 #menu li{
     list-style: none;
-    display:inline;
-    margin: 0 3vw;
+    display:inline-block;
+    margin: 0 40px;
     position: relative;
 }
 #menu li a{
@@ -65,6 +66,11 @@ nav{
     width: 100%
 }
 
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
 .bar{
     display: block;
     width: 25px;
@@ -80,7 +86,7 @@ nav{
     height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0), rgba(23, 12, 87)); */
     width: 100%;
-    height: 2000;
+    height: 1800;
     background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(23, 12, 87,0.5)), url(imgs/Background2.png);
     background-position: top;
 }
@@ -90,17 +96,29 @@ nav{
     height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0), rgba(23, 12, 87)); */
     width: 100%;
-    height: 2000;
+    height: 1700;
     background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(23, 12, 87,0.5)), url(imgs/Background3.png);
     background-position: top;
 }
 
-/* .sign{
-    width:fit-content;
-    height: fit-content;
-    margin: 100 200;
-    box-shadow: 0 0 100px greenyellow;
-} */
+#Solutions {
+    /* width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0), rgba(23, 12, 87)); */
+    width: 100%;
+    height: 1500;
+    background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(23, 12, 87,0.5)), url(imgs/Background3.png);
+    background-position: top;
+}
+#Sources {
+    /* width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0), rgba(23, 12, 87)); */
+    width: 100%;
+    height: 1500;
+    background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(23, 12, 87,0.5)), url(imgs/Background3.png);
+    background-position: top;
+}
 .sign{
     margin: 8%;
     text-align: center;
@@ -118,16 +136,14 @@ nav{
     font-weight: bold;
 }
 .line1{
+    /* width: fit-content;
+    height: fit-content;
+    box-shadow: 0 0 100px greenyellow;  */
     border-left: 20px solid #fff;
-    height: 245vh;
+    height: 1200px;
     position:absolute;
     margin: 140 -54;
     box-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;;
-}
-@media (max-width:5000){
-    .line{
-        height:20vh;
-    }
 }
 .cover{
     font-family:'Dosis';
@@ -144,18 +160,59 @@ nav{
     height: 50px;
     border-radius: 60%;
     position:absolute;
-    margin: 270vh -90;
+    margin: 1340 -90;
     box-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;;
     border: solid 20px;
     display: inline-block;
 }
+@media (max-width: 1000px) {
+    .line1{
+        height: 40px;
+    }
+    .circle{
+        display: none;
+    }
+    /* h2#topics{
+        font-size: 28px;
+    }
+    p#para{
+        font-size: 17px;
+    } */
+    #Home{
+        height: 2000px;
+    }
+    h1.heading{
+        display: none;
+    }
+    nav{
+        justify-content: center;
+    }
+    span.title{
+        font-size: 150;
+    }
+    section.info{
+        width: 80vw;
+    }
+    #Impact{
+        height: 2000px;
+    }
+    #Sources{
+        width: 125%;
+    }
+    #Solutions{
+        height: 1800px;
+    }
+}    
+
 .info{
-    padding: 10vh 30;
+    padding: 100 30;
     text-align:start;
-    width: 65vw;
+    width: 60vw;
+    /* height: 80vh; */
 }
 .content{
-    padding: 50 50;
+    padding: 10 5;
+    width: 90vw;
 }
 
 h1 {
@@ -171,22 +228,62 @@ section {
     text-align: left;
 }
 section a{
-    color: white;
+    color: rgb(140, 255, 125);
 }
 
-h2 {
+#topics {
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     color: rgb(255, 255, 255);
     line-height: 2;
+    display: block;
 }
 
-p{
+#para{
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     color: white;
     line-height: 1.8;
 }
+
 #morelinks:hover{
+    text-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;
+}
+
+#i1{
+    float:right;
+    box-shadow: 10px 10px 10px #41e670;
+}
+#i2{
+    float: left;
+    box-shadow: -10px -10px 10px #41e670;
+}
+.content h1{
+    text-shadow: 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145;
+    color:#fff;
+}
+table{
+    color:white;
+    width: 100%;
+    /* float:right; */
+    margin-left: 5vw;
+    margin-top: 30px;
+    box-shadow: 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145;
+}
+
+table, th, td{
+    border: 2px solid #ffffff;
+    border-collapse: collapse;   
+}
+th, td{
+    padding:15px;
+    font-size: 20px;
+}
+#reference{
+    line-height: 50px;
+    margin-top: -30px;
+    font-size: 20px;
+}
+#reference li:hover{
     text-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;
 }
