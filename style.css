@@ -270,6 +270,7 @@ section a{
     box-shadow: 10px 10px 10px #41e670;
     width: 300px;
     margin-bottom: 15px;
+    margin-top: -20px;
 }
 #i4{
     float: right;
