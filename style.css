@@ -203,10 +203,10 @@ nav{
         height: 2000px;
     }
     img#i4{
-        width: 200px;
+        width: 300px;
     }
     img#i3{
-        width: 200px;
+        width: 300px;
     }
 }    
 
@@ -268,11 +268,11 @@ section a{
 #i3{
     float:right;
     box-shadow: 10px 10px 10px #41e670;
-    width: 600px;
+    width: 400px;
 }
 #i4{
     float: right;
-    width: 300px;
+    width: 400px;
     margin-bottom: 15px;
     box-shadow: 10px 10px 10px #41e670;
 }
