@@ -262,6 +262,7 @@ section a{
 #i3{
     float:right;
     box-shadow: 10px 10px 10px #41e670;
+    width: 600px;
 }
 .content h1{
     text-shadow: 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145;
@@ -272,7 +273,7 @@ table{
     width: 100%;
     /* float:right; */
     margin-left: 5vw;
-    margin-top: 30px;
+    margin-top: 70px;
     box-shadow: 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145;
 }
 
