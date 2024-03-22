@@ -268,12 +268,12 @@ section a{
 #i3{
     float:right;
     box-shadow: 10px 10px 10px #41e670;
-    width: 400px;
+    width: 300px;
+    margin-bottom: 15px;
 }
 #i4{
     float: right;
-    width: 200px;
-    margin-bottom: 15px;
+    width: 300px;
     box-shadow: 10px 10px 10px #41e670;
 }
 .content h1{
