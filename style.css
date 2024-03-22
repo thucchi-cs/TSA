@@ -257,6 +257,7 @@ section a{
 #i2{
     float: left;
     box-shadow: -10px -10px 10px #41e670;
+    margin-right:10px;
 }
 .content h1{
     text-shadow: 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145;
