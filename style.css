@@ -200,7 +200,7 @@ nav{
         width: 125%;
     }
     #Solutions{
-        height: 1800px;
+        height: 2000px;
     }
 }    
 
@@ -263,6 +263,12 @@ section a{
     float:right;
     box-shadow: 10px 10px 10px #41e670;
     width: 600px;
+}
+#i4{
+    float: right;
+    width: 600px;
+    margin-bottom: 15px;
+    box-shadow: 10px 10px 10px #41e670;
 }
 .content h1{
     text-shadow: 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145;
