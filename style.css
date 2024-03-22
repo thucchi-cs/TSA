@@ -259,6 +259,10 @@ section a{
     box-shadow: -10px -10px 10px #41e670;
     margin-right:10px;
 }
+#i3{
+    float:right;
+    box-shadow: 10px 10px 10px #41e670;
+}
 .content h1{
     text-shadow: 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145;
     color:#fff;
