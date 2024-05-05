@@ -4,12 +4,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
-/* .banner {
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(23, 12, 87,0.5)), url(Background.png);
-    background-position: center;
-} */
+/* Menu Bar */
 header {
     background-color: rgba(40, 255, 201, 0.301);
     color: white;
@@ -25,7 +20,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: rgba(255, 255, 255, 0.075); */
 }
 .heading{
     font-family: 'Raleway', sans-serif;
@@ -49,7 +43,6 @@ nav{
     
 }
 #menu li a:hover{
-    /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa; */
     color: #56FF0E !important;
 }
 #menu li a::after{
@@ -65,12 +58,6 @@ nav{
 #menu li a:hover::after{
     width: 100%
 }
-
-.hamburger{
-    display: none;
-    cursor: pointer;
-}
-
 .bar{
     display: block;
     width: 25px;
@@ -81,44 +68,14 @@ nav{
     background-color: white;
 }
 
-#Home {
-    /* width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0), rgba(23, 12, 87)); */
+/* Pages' Background */
+#Home, #Impact, #Solutions, #Sources {
     width: 100%;
-    height: 1800;
     background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(23, 12, 87,0.5)), url(imgs/Background2.png);
     background-position: top;
 }
 
-#Impact {
-    /* width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0), rgba(23, 12, 87)); */
-    width: 100%;
-    height: 1700;
-    background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(23, 12, 87,0.5)), url(imgs/Background3.png);
-    background-position: top;
-}
-
-#Solutions {
-    /* width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0), rgba(23, 12, 87)); */
-    width: 100%;
-    height: 1800;
-    background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(23, 12, 87,0.5)), url(imgs/Background3.png);
-    background-position: top;
-}
-#Sources {
-    /* width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0), rgba(23, 12, 87)); */
-    width: 100%;
-    height: 1500;
-    background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(23, 12, 87,0.5)), url(imgs/Background3.png);
-    background-position: top;
-}
+/* Home Page Big Title */
 .sign{
     margin: 8%;
     text-align: center;
@@ -136,9 +93,6 @@ nav{
     font-weight: bold;
 }
 .line1{
-    /* width: fit-content;
-    height: fit-content;
-    box-shadow: 0 0 100px greenyellow;  */
     border-left: 20px solid #fff;
     height: 1200px;
     position:absolute;
@@ -165,68 +119,27 @@ nav{
     border: solid 20px;
     display: inline-block;
 }
-@media (max-width: 1000px) {
-    .line1{
-        height: 40px;
-    }
-    .circle{
-        display: none;
-    }
-    /* h2#topics{
-        font-size: 28px;
-    }
-    p#para{
-        font-size: 17px;
-    } */
-    #Home{
-        height: 2000px;
-    }
-    h1.heading{
-        display: none;
-    }
-    nav{
-        justify-content: center;
-    }
-    span.title{
-        font-size: 150;
-    }
-    section.info{
-        width: 80vw;
-    }
-    #Impact{
-        height: 2000px;
-    }
-    #Sources{
-        width: 125%;
-    }
-    #Solutions{
-        height: 2000px;
-    }
-    img#i4{
-        width: 300px;
-    }
-    img#i3{
-        width: 300px;
-    }
-}    
 
+
+/* Infor Sections Texts */
 .info{
     padding: 100 30;
     text-align:start;
     width: 60vw;
-    /* height: 80vh; */
 }
 .content{
     padding: 10 5;
     width: 90vw;
 }
-
+.content h1{
+    text-shadow: 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145;
+    color:#fff;
+}
 h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 60px;
     color: rgb(255, 255, 255);
 }
-
 section {
     margin-bottom: 20px;
     margin-top: 65px;
@@ -236,7 +149,6 @@ section {
 section a{
     color: rgb(140, 255, 125);
 }
-
 #topics {
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
@@ -244,7 +156,6 @@ section a{
     line-height: 2;
     display: block;
 }
-
 #para{
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
@@ -252,6 +163,7 @@ section a{
     line-height: 1.8;
 }
 
+/* Links, Images, Tables */
 #morelinks:hover{
     text-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;
 }
@@ -277,19 +189,14 @@ section a{
     width: 300px;
     box-shadow: 10px 10px 10px #41e670;
 }
-.content h1{
-    text-shadow: 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145;
-    color:#fff;
-}
 table{
     color:white;
     width: 100%;
     /* float:right; */
     margin-left: 5vw;
-    margin-top: 70px;
+    margin-top: 130px;
     box-shadow: 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145;
 }
-
 table, th, td{
     border: 2px solid #ffffff;
     border-collapse: collapse;   
@@ -306,3 +213,44 @@ th, td{
 #reference li:hover{
     text-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;
 }
+
+/* Mobile Adaptations */
+@media (max-width: 1000px) {
+    /* Big Title */
+    .line1{
+        height: 40px;
+    }
+    .circle{
+        display: none;
+    }
+    span.title{
+        font-size: 150;
+    }
+
+    /* Pages' sizes */
+    #Home, #Impact, #Solutions{
+        height: 2000px;
+    }
+    #Sources{
+        width: 125%;
+    }
+
+    /* Menu Bar */
+    h1.heading{
+        display: none;
+    }
+    nav{
+        justify-content: center;
+    }
+
+    /* Infor sections */
+    section.info{
+        width: 80vw;
+    }
+    img#i4{
+        width: 300px;
+    }
+    img#i3{
+        width: 300px;
+    }
+}    
