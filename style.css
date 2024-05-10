@@ -126,6 +126,7 @@ nav{
     padding: 100 30;
     text-align:start;
     width: 60vw;
+    margin-bottom: 100px;
 }
 .content{
     padding: 10 5;
@@ -192,9 +193,9 @@ section a{
 table{
     color:white;
     width: 100%;
-    /* float:right; */
     margin-left: 5vw;
     margin-top: 130px;
+    margin-bottom: 75px;
     box-shadow: 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145, 0 0 10px #0ed145;
 }
 table, th, td{
@@ -214,16 +215,49 @@ th, td{
     text-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;
 }
 
+/* Footer */
 footer{
     background-color: rgba(40, 255, 201, 0.15);
     width: 100%;
     height: 150px;
-    /* margin-top: 100; */
     bottom:0;
     color: white;
     text-align: center;
     font-size: 30px;
     position:relative;
+}
+#footermenu li{
+    list-style: none;
+    display:inline-block;
+    margin: 17px 40px;
+    position: relative;
+}
+#footermenu li a{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: rgb(190, 207, 151);
+    text-transform:bold;
+    font-size: 22;
+}
+#footermenu li a:hover{
+    text-decoration: underline;
+}
+#footerinfo{
+    list-style: none;
+    margin: 5px 0px;
+    position: relative;
+    text-align: center;
+} 
+#footerinfo p{
+    display:inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: rgb(146, 163, 107);
+    text-transform:bold;
+    font-size: 18;
 }
 
 /* Mobile Adaptations */
