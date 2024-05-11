@@ -281,7 +281,8 @@ footer{
 @media (max-width: 1000px) {
     /* Big Title */
     #line1{
-        height: 40px;
+        height: 50px;
+        border-radius: 10px;
     }
     #circle{
         display: none;
@@ -291,13 +292,22 @@ footer{
     }
 
     /* Pages' sizes */
-    #Home, #Impact, #Solutions{
+    /* #Home, #Impact, #Solutions{
         height: 2000px;
+    } */
+    #Home, #Impact, #Solutions, #Sources {
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(23, 12, 87,0.5)), url(imgs/Background2.png);
+        background-position: top;
     }
-    #Sources{
-        width: 125%;
+    #Sources .para{
+        padding-bottom: 30px;
     }
-
+    #reference li{
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    
     /* Menu Bar */
     h1#heading{
         display: none;
@@ -316,12 +326,19 @@ footer{
     img#i3{
         width: 300px;
     }
+    table{
+        margin-top: 50px;
+    }
+    p.para{
+        font-size: 13;
+    }
 
     /* Footer */
-    section#footermenu li a{
-        font-size: 20;
+    #Sources footer{
+        bottom: 0;
     }
     section#footerinfo p{
-        font-size: 15;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }    
