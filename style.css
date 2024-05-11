@@ -4,6 +4,29 @@
     font-family: 'Raleway', sans-serif;
 }
 
+/* Pages' Background */
+#Home, #Impact, #Solutions, #Sources {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0,0.6), rgba(23, 12, 87,0.7)), url(imgs/Background.png);
+    background-position: top;
+    background-attachment: fixed;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #00050f;
+}
+::-webkit-scrollbar-thumb {
+  background: #0ed145;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
 /* Menu Bar */
 header {
     background-color: rgba(40, 255, 201, 0.301);
@@ -21,7 +44,7 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
-.heading{
+#heading{
     font-family: 'Raleway', sans-serif;
     width: auto;
     cursor: pointer;
@@ -58,7 +81,7 @@ nav{
 #menu li a:hover::after{
     width: 100%
 }
-.bar{
+#bar{
     display: block;
     width: 25px;
     height: 3px;
@@ -68,22 +91,15 @@ nav{
     background-color: white;
 }
 
-/* Pages' Background */
-#Home, #Impact, #Solutions, #Sources {
-    width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(23, 12, 87,0.5)), url(imgs/Background2.png);
-    background-position: top;
-}
-
 /* Home Page Big Title */
-.sign{
+#sign{
     margin: 8%;
     text-align: center;
 }
-.sign a{
+#sign a{
     color: #0ed145;
 }
-.title{
+#title{
     font-family:'Dosis';
     font-size: 150;
     text-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;
@@ -92,14 +108,14 @@ nav{
     color:#fff;
     font-weight: bold;
 }
-.line1{
+#line1{
     border-left: 20px solid #fff;
     height: 1200px;
     position:absolute;
     margin: 140 -54;
     box-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;;
 }
-.cover{
+#cover{
     font-family:'Dosis';
     font-size: 150;
     position:absolute;
@@ -108,7 +124,7 @@ nav{
     text-shadow: none;
     font-weight: bold;
 }
-.circle{
+#circle{
     color: #fff;
     width: 50px;
     height: 50px;
@@ -118,11 +134,12 @@ nav{
     box-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;;
     border: solid 20px;
     display: inline-block;
+    background-color: #1a1a1a;
 }
 
 
 /* Infor Sections Texts */
-.info{
+#info{
     padding: 100 30;
     text-align:start;
     width: 60vw;
@@ -150,14 +167,14 @@ section {
 section a{
     color: rgb(140, 255, 125);
 }
-#topics {
+.topics {
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     color: rgb(255, 255, 255);
     line-height: 2;
     display: block;
 }
-#para{
+.para{
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     color: white;
@@ -263,13 +280,13 @@ footer{
 /* Mobile Adaptations */
 @media (max-width: 1000px) {
     /* Big Title */
-    .line1{
+    #line1{
         height: 40px;
     }
-    .circle{
+    #circle{
         display: none;
     }
-    span.title{
+    span#title{
         font-size: 150;
     }
 
@@ -282,15 +299,15 @@ footer{
     }
 
     /* Menu Bar */
-    h1.heading{
+    h1#heading{
         display: none;
     }
     nav{
         justify-content: center;
     }
 
-    /* Infor sections */
-    section.info{
+    /* Info sections */
+    section#info{
         width: 80vw;
     }
     img#i4{
@@ -298,5 +315,13 @@ footer{
     }
     img#i3{
         width: 300px;
+    }
+
+    /* Footer */
+    section#footermenu li a{
+        font-size: 20;
+    }
+    section#footerinfo p{
+        font-size: 15;
     }
 }    
