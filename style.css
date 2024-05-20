@@ -7,7 +7,7 @@
 /* Pages' Background */
 #Home, #Impact, #Solutions, #Sources {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0,0.6), rgba(23, 12, 87,0.7)), url(imgs/Background4.png);
+    background-image: linear-gradient(rgba(0, 0, 0,0.6), rgba(23, 12, 87,0.7)), url(imgs/BackgroundFinal.png);
     background-position: center;
     background-attachment: fixed;
 }
@@ -236,7 +236,7 @@ th, td{
 footer{
     background-color: rgba(40, 255, 201, 0.15);
     width: 100%;
-    height: 150px;
+    height: 130px;
     bottom:0;
     color: white;
     text-align: center;
