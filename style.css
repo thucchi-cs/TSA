@@ -47,7 +47,6 @@ nav{
 #heading{
     font-family: 'Raleway', sans-serif;
     width: auto;
-    cursor: pointer;
     color: rgb(255, 255, 255);
     font-size: 40;
     padding: 0 50px;
@@ -179,13 +178,16 @@ section a{
     font-size: 20px;
     color: white;
     line-height: 1.8;
+    text-align: justify;
 }
 
 /* Links, Images, Tables */
 #morelinks:hover{
     text-shadow: 0 0 20px #0ed145, 0 0 30px #0ed145, 0 0 40px #0ed145, 0 0 50px #0ed145, 0 0 60px #0ed145, 0 0 70px #0ed145, 0 0 80px #0ed145;
 }
-
+img{
+    margin: 20px;
+}
 #i1{
     float:right;
     box-shadow: 10px 10px 10px #41e670;
@@ -193,7 +195,6 @@ section a{
 #i2{
     float: left;
     box-shadow: -10px -10px 10px #41e670;
-    margin-right:10px;
 }
 #i3{
     float:right;
