@@ -298,7 +298,7 @@ footer{
     } */
     #Home, #Impact, #Solutions, #Sources {
         width: 100%;
-        background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(23, 12, 87,0.5)), url(imgs/Background2.png);
+        background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(23, 12, 87,0.5)), url(imgs/BackgroundMobile.png);
         background-position: top;
     }
     #Sources .para{
@@ -321,6 +321,12 @@ footer{
     section#info{
         width: 80vw;
     }
+    img#i1{
+        width:430px;
+    }
+    img#i2{
+        width:510px;;
+    }
     img#i4{
         width: 300px;
     }
@@ -339,7 +345,7 @@ footer{
         bottom: 0;
     }
     section#footerinfo p{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }    
